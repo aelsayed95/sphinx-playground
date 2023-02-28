@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sphinx
+Version: 0.0.0
+Summary: Sphinx example
+Author-email: Aya Elsayed <aelsayed12@bloomberg.net>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Sphinx Example
+
+This is a sample project

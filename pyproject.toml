@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sphinx"
+authors = [
+    {name = "Aya Elsayed", email = "aelsayed12@bloomberg.net"},
+]
+description = "Sphinx example"
+readme = "README.md"
+requires-python = ">=3.7"
+dynamic = ["version"]
+
+[tool.semantic_release]
+version_variable = "sphinx/__main__.py:__version__"
+
+[project.scripts]
+my-script = "sphinx.__main__:main"

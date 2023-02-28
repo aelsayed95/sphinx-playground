@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+sphinx/__main__.py
+sphinx/human.py
+sphinx/lion.py
+sphinx/riddles.py
+sphinx/sphinx.py
+sphinx.egg-info/PKG-INFO
+sphinx.egg-info/SOURCES.txt
+sphinx.egg-info/dependency_links.txt
+sphinx.egg-info/entry_points.txt
+sphinx.egg-info/top_level.txt
