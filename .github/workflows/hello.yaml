@@ -1,0 +1,12 @@
+name: Hello World
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo "Hello, World!"

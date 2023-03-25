@@ -10,10 +10,7 @@ authors = [
 description = "Sphinx example"
 readme = "README.md"
 requires-python = ">=3.7"
-dynamic = ["version"]
-
-[tool.semantic_release]
-version_variable = "sphinx/__main__.py:__version__"
+version = "1.0.2"
 
 [project.scripts]
 my-script = "sphinx.__main__:main"
